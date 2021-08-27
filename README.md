@@ -18,6 +18,20 @@ Google Colab, PySpark, Amazon RDS, postgreSQL
 
 ### Trustworthiness Analysis of Amazon Reviews
 
+* Minimum, average and maxiumum Star Rating
+  
+    ![Vine Star Rating](images/query_1a.png)
+
+* Minimum, average and maxiumum Helpful Votes count
+    
+    ![Vine Helpful Votes](images/query_1b.png)
+
+* Minimum, average and maxiumum Total Votes count
+
+    ![Vine Total Votes](images/query_1c.png)
+
+
+
 ### Replication Instructions
 1. Create Amazon RDS PostgreSQL database.  
     * Make note of the DB identifier, Endpoint and password.
