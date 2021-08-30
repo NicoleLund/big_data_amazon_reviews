@@ -39,7 +39,7 @@ The database holds four data tables of Amazon ebook reviews.  Those tables are:
     * vine
 
 ### Trustworthiness Analysis of Amazon Reviews
-The definition of a Vine customer is: "Amazon Vine invites the most trusted reviewers on Amazon to post opinions about new and pre-release items to help their fellow customers make informed purchase decisions. Amazon invites customers to become Vine Voices based on their reviewer rank, which is a reflection of the quality and helpfulness of their reviews as judged by other Amazon customers. Amazon provides Vine members with free products that have been submitted to the program by participating vendors. Vine reviews are the independent opinions of the Vine Voices. The vendor cannot influence, modify or edit the reviews. Amazon does not modify or edit Vine reviews, as long as they comply with our posting guidelines. A Vine review is identified with the green stripe Customer review from the Amazon Vine Program." [<a href="https://www.amazon.com/gp/vine/help?ie=UTF8" target="_blank">What is Amazon Vine</a>]
+Amazon's definition of a Vine customer is: "Amazon Vine invites the most trusted reviewers on Amazon to post opinions about new and pre-release items to help their fellow customers make informed purchase decisions. Amazon invites customers to become Vine Voices based on their reviewer rank, which is a reflection of the quality and helpfulness of their reviews as judged by other Amazon customers. Amazon provides Vine members with free products that have been submitted to the program by participating vendors. Vine reviews are the independent opinions of the Vine Voices. The vendor cannot influence, modify or edit the reviews. Amazon does not modify or edit Vine reviews, as long as they comply with our posting guidelines. A Vine review is identified with the green stripe Customer review from the Amazon Vine Program." [<a href="https://www.amazon.com/gp/vine/help?ie=UTF8" target="_blank">What is Amazon Vine?</a>]
 
 The following investigation drills down through the data to determine if Vine reviews are trustworthy.
 
@@ -90,8 +90,10 @@ The following investigation drills down through the data to determine if Vine re
 4. Access the database in pgAdmin 4 or dBeaver.
 5. Run level-2/query.sql 
 
-### Source Data and Starter Code
+### References
 * Starter code and data provided by UofA Data Analytics Bootcamp
-* <a href="https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt" target="_blank">Amazon Reviews Databases</a>
+* <a href="https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt" target="_blank">Amazon Reviews Source Data</a>
     * <a href="https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Digital_Ebook_Purchase_v1_00.tsv.gz" target="_blank">https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Digital_Ebook_Purchase_v1_00.tsv.gz</a>
     * <a href="https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Digital_Ebook_Purchase_v1_01.tsv.gz" target="_blank">https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Digital_Ebook_Purchase_v1_01.tsv.gz</a>
+*  <a href="https://www.amazon.com/gp/vine/help?ie=UTF8" target="_blank">Amazon Vine Program Definition</a>
+
